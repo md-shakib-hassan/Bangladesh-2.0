@@ -67,3 +67,79 @@ nav h2{
 }
 
 /* here hero content and start main content */
+
+.pillar-container{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 32px;
+
+}
+
+.pillars{
+    width: 250px;
+    height: 240px; 
+    background-color: white;
+    border-radius: 16px;
+
+}
+
+.pillar-content{
+    padding: 20px;
+}
+.pillars h4{
+    font-weight: bold;
+    font-size: 18px;
+    color: #0E0E0E;
+    opacity: .8;
+
+}
+.pillars p {
+    font-size: 15px;
+    color: #0E0E0E;
+    opacity: 70%;
+}
+
+/* vision of future */
+
+/* opacity of paragraph which is use many times */
+.opacity{
+    opacity: .7;
+}
+.item-container{
+    display: flex;
+    gap: 20px;
+}
+
+.item{
+    width: 335px;
+    height: 280px;
+    border-radius: 16px;
+}
+.item-content{
+    padding: 10px;
+}
+
+.item button{
+    width: 110px;
+    height: 35px ;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+
+.blue-btn{
+    background-color: #5490F5;
+}
+.green-btn{
+    background-color: #09A15C;
+}
+.yellow-btn{
+    
+ background-color: #FFC239;
+}
+
+.blue{
+    background-color: #5490F5;
+    opacity: 20%;
+}
