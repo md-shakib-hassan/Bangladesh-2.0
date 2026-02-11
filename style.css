@@ -200,3 +200,117 @@ nav h2{
     font-weight: bold;
     font-size: 28px;
 }
+
+
+/* Donate part start form here */
+
+.donate-section{
+    height: 410px;
+}
+
+.donate-item{
+    width: 200px;
+    height: 80px;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.donate h1{
+    text-align: center;
+    /* margin-top: px; */
+    font-weight: bold;
+    font-size: 35px;
+    color: rgb(14, 14, 14, .8);
+   
+}
+
+.donate p{
+    text-align: center;
+}
+
+.donate-container{
+    display: flex;
+    gap: 50px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+..donate{
+    display: flex;
+}
+.donate p{
+    width: 800px;
+    margin: 0 auto;
+}
+.btn-donate-div{
+    padding: 50px 500px;
+}
+.donate-btn{
+    width: 110px;
+    height: 40px ;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    background-color: #006A50;
+}
+.donate-item:hover{
+    background-color: #C6E4D6;
+}
+.donate-item:hover{
+    cursor: pointer;
+}
+.common-btn:hover{
+    cursor: pointer;
+}
+/* subcribe start form here */
+
+.subcribe{
+    background-color: #C6E4D6;
+    height: 300px;
+    border-radius: 24px;
+}
+.subcribe p{
+    width: 550px;
+   margin: 5px auto;
+   text-align: center;
+}
+.subcribe-title{
+    text-align: center;
+    padding-top: 50px;
+}
+.email-subcribe{
+    padding: 0 250px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.email-subcribe input{
+    height: 30px;
+    width: 450px;
+    border-radius: 8px;
+    border: none;
+}
+.email-subcribe button{
+    height:32px ;
+    background-color: #006A50;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    font-size: 500;
+    width: 90px;
+}
+
+/* footer start and addint something without that will be last  */
+
+.the-end{
+    margin-top: 50px;
+    text-align: center;
+}
+.the-end-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.the-end img{
+    gap: 20px;
+}
